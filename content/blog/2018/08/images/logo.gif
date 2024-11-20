@@ -1,0 +1,301 @@
+
+<!DOCTYPE html>
+<html lang="en-GB" class="no-js no-svg">
+<head>
+
+    <title>Lets Get Fundraising </title>
+    
+<meta http-equiv="Content-type" content="text/html;charset=ISO-8859-1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link type="text/plain" rel="author" href="/humans.txt" />  
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#dc1b5c">
+<meta name="msapplication-TileColor" content="#dc1b5c">
+<meta name="theme-color" content="#dc1b5c">
+
+
+<link rel="stylesheet" href="https://cdn.edcol.org/font-awesome/5.pro.latest/css/all.min.css">
+<script src="/includes/navigation.js"></script>
+
+
+<link rel='dns-prefetch' href='//www.google.com' />
+<link rel='dns-prefetch' href='//ajax.googleapis.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='stylesheet' id='wp-block-library-css'  href='/themes/flexx-master/dist/blocklibrary/style.min.css?ver=5.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='flexx-master-style-css'  href='/themes/flexx-master/style.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='flexx-child-style-css'  href='/themes/pta/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='googlefont-css'  href='https://fonts.googleapis.com/css?family=Fira+Sans%3A300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%7CPT+Serif%3A400%2C400i%2C700%2C700i&#038;display=swap%22+rel%3D%22stylesheet&#038;ver=5.5.3' type='text/css' media='all' />
+
+<link rel="stylesheet" href="/skin/nav.css">
+
+<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js' id='jquery-js'></script>
+
+<!-- Google tag (gtag.js) --> <script async src=https://www.googletagmanager.com/gtag/js?id=AW-1071846629></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-1071846629'); </script>
+
+
+</head>
+
+<body class="page-template page-template-page-templates page-template-article-archives-template page-template-page-templatesarticle-archives-template-php page page-id-27 page-parent page-child parent-pageid-25 ideas top-parent-25" id="top">
+  
+
+  <header id="global-header"> 
+    
+    <section class="grid-container full orange-bg white-text" id="global-header-top">
+      
+      <div style="height:30px;"></div>
+      
+    </section>
+    
+    <section class="grid-container full white-bg padding15" id="global-header-main">
+      
+      <div class="grid-container">
+        
+        <div class="grid-x grid-margin-x align-middle">
+
+          <div class="cell medium-2 large-2 " id="header-logo" >
+
+            <a href="/" >
+            <img alt="Lets Get Fundraising Logo" src="/uploads/lets-get-fundraising.gif" >            </a>
+
+          </div>
+          
+          <div class="cell medium-10 large-10 " id="header-nav">
+               <nav class="menu-main-navigation-container navLarge"><ul id="menu-main-navigation" class="menu align-right">
+                
+                        <li id="menu-item-62" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62"><a href="/supplier-search">Supplier Search</a></li>                        
+                         
+                        <li id="menu-item-62" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62"><a href="/local">Local Fundraising</a></li>                        
+                         
+            
+            
+            
+            
+
+</ul></nav>   
+
+
+               <nav class="menu-main-navigation-container navSmall"><ul id="menu-main-navigation" class="menu align-right">
+               
+                <button class="button" data-toggle="smallNavModal" onClick="fnToggleDivClass('smallNavModal','tec-hide');">
+               <i class="fas fa-bars"></i></button>
+               
+               </nav>
+                
+            
+        </div>
+        
+        
+        
+        
+
+<div class="reveal" id="exampleModal8" data-reveal>
+<form role="search" method="get" id="searchform" class="searchform" action="/search/">
+				<div>
+					<label class="screen-reader-text" for="s">Search for:</label>
+					<input type="text" value="" name="s" id="s" />
+					<input type="submit" id="searchsubmit" value="Search" class="button" />
+				</div>
+			</form>    <button class="close-button" data-close aria-label="Close reveal" type="button">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+          
+          </div>
+
+        </div>
+      
+      </div>
+    
+    </section>
+    
+    <section class="grid-container full orange-bg white-text" id="global-header-top">
+      
+      <div style="height:6px;"></div>
+      
+    </section>
+    
+  <div class="navSmall tec-hide" id="smallNavModal" >
+ 
+                <li class="navlevel1" ><a href="/supplier-search">Supplier Search</a></li>                        
+                 
+                <li class="navlevel1" ><a href="/local">Local Fundraising</a></li>                        
+                 
+
+    </div>
+  </header>
+<section class="grid-container padding25">
+
+
+          
+  <div class="grid-x grid-margin-x">
+    
+    <div class="cell medium-12 large-12" id="article-main" >
+      
+      
+      
+      
+      
+
+    
+    </div>
+    
+    <div class="cell medium-6 large-4" id="sidebar">
+      
+      
+<div class="grid-x grid-margin-x banners" style="margin-top:87px;margin-left:4px;">
+      
+        
+                
+      </div>
+      
+    
+   
+    
+    
+    
+    </div>
+
+  </div>
+  
+  
+  
+  
+</section>
+
+
+<script>
+document.head.innerHTML = document.head.innerHTML + '<title>Lets Get Fundraising </title>'
+</script>
+<footer id="global-footer" class="grid-container full">
+  
+  <section id="footer-top" class="padding25">
+    
+    <div class="grid-container">
+      
+      <div class="grid-x grid-margin-x">
+        
+        <div class="cell medium-4 large-4">
+          
+          <p><img loading="lazy" class="alignnone wp-image-113" src="/uploads/community-inspired-logo.png" alt="Community Inspired Logo" width="150" height="47" /></p>
+<p>Unit 2, Bulrushes Farm, Coombe Hill Road,<br />
+East Grinstead, West Sussex, RH19 4LZ</p>
+<p>01342 718679 | <a href="mailto:info@communityinspired.co.uk">info@communityinspired.co.uk</a></p>
+          
+        </div>
+        
+        <div class="cell medium-3 large-3">
+          
+          <nav class="menu-footer-menu-1-container"><ul id="menu-footer-menu-1" class="menu align-left footer-menu">
+          
+          
+        
+            <li id="menu-item-116" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-116"><a href="/content/articles/contact/">Contact</a></li>
+            
+            <li id="menu-item-116" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-116"><a href="/content/articles/advertise/">Advertise</a></li>
+            
+            <li id="menu-item-116" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-116"><a href="/content/articles/meet-the-team/">Meet the team</a></li>
+            
+            <li id="menu-item-116" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-116"><a href="/content/articles/about-us/">About us</a></li>
+            
+        </ul></nav>        
+        
+        </div>
+        
+        <div class="cell medium-3 large-3">
+          
+          <nav class="menu-footer-menu-2-container"><ul id="menu-footer-menu-2" class="menu align-left footer-menu">
+          
+          
+            <li id="menu-item-116" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-116"><a href="/content/policies/cookies/">Cookies</a></li>
+            
+            <li id="menu-item-116" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-116"><a href="/content/policies/privacy/">Privacy</a></li>
+            
+            <li id="menu-item-116" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-116"><a href="/content/policies/terms/">Terms</a></li>
+            
+          
+          
+</ul></nav>        
+        
+        </div>
+        
+        <div class="cell medium-2 large-2">
+          
+                    <ul id="footer-social-links">
+                    
+          <li class="footer-social"><a href="http://www.facebook.com/getfundraising/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+
+                    
+          <li class="footer-social"><a href="https://twitter.com/getfundraising/" target="_blank"><i class="fab fa-twitter"></i></a></li>
+          
+          <li class="footer-social"><a href="https://www.pinterest.co.uk/getfundraising/" target="_blank"><i class="fab fa-pinterest-p"></i></a></li>
+          
+          
+
+                    </ul>
+                  
+        
+        </div>
+        
+      </div>
+      
+    </div>
+    
+  </section>
+  
+  <section id="footer-copyright" class="padding10">
+    
+    <div class="grid-container">
+      
+      <div class="grid-x grid-margin-x">
+        
+        <div class="cell medium-7 large-7">
+          
+          <p>&copy; 2020 All rights reserved. Lets Go Fundraising is published by Community Inspired Ltd Registered in England No: 04573509.</p>
+          
+        </div>
+        
+        <div class="cell medium-5 large-5 text-right">
+          
+          <p>Web Design by <a href="https://www.theeducationcollective.com/" target="_blank">the<strong>Education</strong>Collective</a></p>
+          
+        </div>
+        
+      </div>
+      
+    </div>
+  
+  </section>
+  
+</footer>
+
+<a href="#" id="back-to-top" title="Back to top"><i class="fas fa-angle-up"></i></a>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+<div class="cli-modal-backdrop cli-fade cli-settings-overlay"></div>
+<div class="cli-modal-backdrop cli-fade cli-popupbar-overlay"></div>
+
+<script type='text/javascript' src='/themes/pta/assets/js/app.js?ver=1.0' id='child-app-js-js'></script>
+<script type='text/javascript' src='/themes/flexx-master/inc/js/vendor/what-input.js?ver=4.2.0' id='what-input-js'></script>
+<script type='text/javascript' src='/themes/flexx-master/inc/js/vendor/foundation.js?ver=6.4.2' id='foundation-js'></script>
+<script type='text/javascript' src='/themes/flexx-master/inc/js/app.js?ver=1.0' id='app-js-js'></script>
+<script>
+function init() {
+var vidDefer = document.getElementsByTagName('iframe');
+for (var i=0; i<vidDefer.length; i++) {
+if(vidDefer[i].getAttribute('data-src')) {
+vidDefer[i].setAttribute('src',vidDefer[i].getAttribute('data-src'));
+} } }
+window.onload = init;
+</script>
+
+</body>
+</html>
