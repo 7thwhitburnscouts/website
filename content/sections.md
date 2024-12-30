@@ -1,7 +1,7 @@
 ---js
 const eleventyNavigation = {
 	key: "Sections",
-	order: 4
+	order: 3
 };
 ---
 
