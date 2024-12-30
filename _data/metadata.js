@@ -1,11 +1,11 @@
 export default {
-	title: "Eleventy Base Blog v9",
-	url: "https://example.com/",
+	title: "7th Whitburn Scout Group",
+	url: "https://7thwhitburnscouts.org.uk",
 	language: "en",
-	description: "I am writing about my experiences as a naval navel-gazer.",
+	description: "The website of the 7th Whitburn (Brucefield) Scout Group",
 	author: {
-		name: "Your Name Here",
-		email: "youremailaddress@example.com",
-		url: "https://example.com/about-me/"
+		name: "Paul",
+		email: "paul@7thwhitburnscouts.org.uk",
+		url: "https://7thwhitburnscouts.org.uk"
 	}
 }

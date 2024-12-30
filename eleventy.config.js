@@ -13,6 +13,7 @@ export default async function(eleventyConfig) {
 		if(data.draft && process.env.ELEVENTY_RUN_MODE === "build") {
 			return false;
 		}
+
 	});
 
 	// Copy the contents of the `public` folder to the output folder
@@ -107,8 +108,12 @@ export default async function(eleventyConfig) {
 	// If your passthrough copy gets heavy and cumbersome, add this line
 	// to emulate the file copy on the dev server. Learn more:
 	// https://www.11ty.dev/docs/copy/#emulate-passthrough-copy-during-serve
-
+ 
 	// eleventyConfig.setServerPassthroughCopyBehavior("passthrough");
+	eleventyConfig.addFilter("excerpt", (post) => {
+		const content = post.replace(/(<([^>]+)>)/gi, "");
+		return content.substr(0, content.lastIndexOf(" ", 200)) + "...";
+	  });
 };
 
 export const config = {
