@@ -5,4 +5,4 @@ categories:
   - "news"
 ---
 
-tempo
+![Group Calendar 2024](/img/group-calendar-2024.png "Group Calendar 2024") 

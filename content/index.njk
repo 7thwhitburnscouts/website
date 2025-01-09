@@ -6,9 +6,14 @@ const eleventyNavigation = {
 
 const numberOfLatestPostsToShow = 3;
 ---
+<h1>7th Whitburn Scouts</h1>
+
+<p>The 7th Whitburn Scout Group offers fun and adventure to young people aged 6 to 18 through the different sections we run.   We strive to deliver the Scout Associations dynamic programme and for our members to develop life-long skills.</p>
+
+
 {% set postsCount = collections.posts | length %}
 {% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
-<h1>Latest {{ latestPostsCount }} Post{% if latestPostsCount != 1 %}s{% endif %}</h1>
+<h2>Latest News</h2>
 
 {% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}
 {% set postslistCounter = postsCount %}
