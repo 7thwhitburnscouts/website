@@ -1,6 +1,6 @@
 ---js
 const eleventyNavigation = {
-	key: "Join Us",
+	key: "Join",
 	order: 4
 }
 ---

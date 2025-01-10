@@ -7,9 +7,44 @@ const eleventyNavigation = {
 const numberOfLatestPostsToShow = 3;
 ---
 <h1>7th Whitburn Scouts</h1>
+<p><b>Welcome to our website</b> We will be using this site to keep our members up to date with everything that is happening in the group. We hope you’ll use and enjoy features.</p>
+<p>The 7th Whitburn Scout Group offers fun and adventure to young people aged 6 to 18 through the different sections we run. We strive to deliver the Scout Associations dynamic programme and for our members to develop life-long skills.</p>
+<h3>Location</h3>
+<p>7th Whitburn Scout Group meet in Brucefield Church on East Main Street, Whitburn.  You can find a map <a href="/findus/">here</a>.</p>
 
-<p>The 7th Whitburn Scout Group offers fun and adventure to young people aged 6 to 18 through the different sections we run.   We strive to deliver the Scout Associations dynamic programme and for our members to develop life-long skills.</p>
-
+<h3>Meeting Times</h3>
+<table>
+  <tr>
+    <th>Section</th>
+    <th>Age Range</th>
+	<th>Day</th>
+    <th>Meeting Times</th>
+  </tr>
+  <tr>
+    <td>Beavers</td>
+    <td>6-8</td>
+    <td>Tuesday</td>
+	<td>5:15 - 7:00 PM</td>
+  </tr>
+  <tr>
+    <td>Cubs</td>
+    <td>8-10.5</td>
+    <td>Tuesday</td>
+	<td>6:15 - 7:45 PM</td>
+  </tr>
+  <tr>
+    <td>Scouts</td>
+    <td>10.5-14</td>
+    <td>Thursday</td>
+	<td>6:30 - 8:30 PM</td>
+  </tr>
+  <tr>
+    <td>Explorers</td>
+    <td>14-18</td>
+    <td>Thursday</td>
+	<td>7:30 - 9:30 PM</td>
+  </tr>
+</table>
 
 {% set postsCount = collections.posts | length %}
 {% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
