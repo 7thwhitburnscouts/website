@@ -64,11 +64,11 @@ export default async function(eleventyConfig) {
 		},
 		metadata: {
 			language: "en",
-			title: "Blog Title",
-			subtitle: "This is a longer description about your blog.",
-			base: "https://example.com/",
+			title: "7th Whitburn Scouts",
+			subtitle: "The 7th Whitburn Scouts website.",
+			base: "https://7thwhitburnscouts.org.uk/",
 			author: {
-				name: "Your Name"
+				name: "Paul Freeman"
 			}
 		}
 	});
