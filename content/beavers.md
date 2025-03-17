@@ -1,6 +1,6 @@
 # Beavers
 
-<b>Thursdays: 5:30-6:30 pm - McMartin Colony   6:45-7:45 pm - Bonnar Colony<b>
+<b>Thursdays: 5:30-6:30 pm - McMartin Colony<b>
 
 Beaver Scouts are part of the worldwide Scout Movement.   Membership is open to boys and girls aged between 6 and 8 years old.
 Beaver Scouting is all about having fun, playing games, making things, going on outings, meeting friends and gaining lots of badges.
