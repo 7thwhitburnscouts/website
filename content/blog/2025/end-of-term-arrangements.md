@@ -9,19 +9,19 @@ categories:
 The Scout Group has a busy few weeks ahead leading up to the summer holidays.   Please find outlined below arrangements for the various events taking place as well as a few other items of information:
 
 
-## 1)	 GALA WEEK UNIFORMED ORGANISATION’S QUIZ – THURSDAY 19 JUNE
+## 1 GALA WEEK UNIFORMED ORGANISATION’S QUIZ – THURSDAY 19 JUNE
 
 A team from the Cub Scouts will be taking part in the Junior Round of the Gala Week Quiz at 6.15 pm and a Scouts/Explorer Scout team will be involved with the Senior Round at 7.30 pm.  
 
 If your child is taking part, please encourage them to come along and represent the Group and, if possible, please come along yourself and support your child, the Scout Group and the event itself.
 
 
-## 2)	CIVIC WEEK PARADE AND SERVICE – SUNDAY 22 JUNE
+## 2	CIVIC WEEK PARADE AND SERVICE – SUNDAY 22 JUNE
 
 Assembling in Whitburn Bowling Club car park for 2.15 pm.  We parade to Whitburn Academy for the service to mark the start of Civic Week and should return to the Bowling Club at approximately 4 pm.  A collection for charity is taken at this event.  The Gala Committee would be grateful if you can make any contribution.
 
 
-## 3)	 WHITBURN GALA DAY - SATURDAY 28 JUNE
+## 3 WHITBURN GALA DAY - SATURDAY 28 JUNE
 
 We will be gathering in Brucefield Church Car Park at 10.15 am and everyone can be collected from the top end of King George V Park (Park View/Bog Road end) at approximately 12 noon.  Please look out for the Group’s flags.
 
@@ -30,7 +30,7 @@ We ask that full uniform - Scout shirt or jumper, necker and smart trousers and 
 As a Group, improving parade attendance remains one of our ongoing aims.  We would very much like to see as many people walking with the Group as possible, whilst appreciating that some may be walking with their school or other youth organisations on the Gala Day itself.    PLEASE ENCOURAGE AND ASSIST YOUR CHILD TO ATTEND.
 
 
-## 4)	MEETINGS
+## 4	MEETINGS
 
 Please note the following dates when section meetings will be finishing and resuming after the summer break:
 
@@ -39,7 +39,7 @@ Please note the following dates when section meetings will be finishing and resu
 •	Beaver and Cub Scouts - finish 26 June; resume 14 August 2025
 
 
-## 5)	 BEAVER AND CUB SCOUTS TO POLKEMMET COUNTRY PARK – 26 JUNE
+## 5	 BEAVER AND CUB SCOUTS TO POLKEMMET COUNTRY PARK – 26 JUNE
 
 As has become the tradition, for the last Beaver and Cub meeting of the session on 26 June, we are planning to take both sections to Polkemmet Country Park.
 
@@ -53,7 +53,7 @@ Continued over…
 •	Please note that if the weather is poor then we will revert to a normal Thursday night programme with the usual meeting times at Brucefield Church Halls.  Updates will be posted on the Group’s Facebook page and if in doubt please contact us using the telephone numbers at the top of this letter.
 
 
-## 6)	GROUP CAMP – 19 to 21 SEPTEMBER
+## 6	GROUP CAMP – 19 to 21 SEPTEMBER
 
 The annual Group Camp will be taking place over the weekend of the 19 – 21 September involving the Cub Scouts, Scouts and Explorer Scouts.  This year we will be returning to Bonaly Scout Centre on the outskirts of Edinburgh.
 
@@ -61,7 +61,7 @@ This will involve Cubs, Scouts and Explorers camping over the weekend.  It is pl
 
 Information letters and consent forms will be issued before the summer break, but please take note of the date if your son or daughter wishes to attend.  
 
-## 7)  ADULT RECRUITMENT
+## 7  ADULT RECRUITMENT
 
 On a weekly basis, Whitburn Scout Group delivers a wide range of fun and challenging activities to around 60 young people across our four Sections allowing them to enjoy  worthwhile experiences and to develop and learn many new skills.  
 
@@ -83,11 +83,9 @@ If you would like more information, or just have a no obligation chat, please co
 Maintaining and adding to the current leadership team is vital to allow the Scout Group to continue providing the excellent Scouting experience we currently do.
 
 
-## 8) COMMUNICATION
+## 8 COMMUNICATION
 
-Please can I remind everyone that our website and Facebook pages exist and are regularly updated with news and information.  Our website can be found at:
-
-www.7thwhitburnscouts.org.uk
+Please can I remind everyone that our website and Facebook pages exist and are regularly updated with news and information.  
 
 Our closed Facebook group - which members and families can request to follow - can be found by searching Facebook for “7th Whitburn Scouts”.  Please request to join our Facebook group if not already.
 
