@@ -1,18 +1,28 @@
-/* Message Box */
+/* Message Box — Scouts style */
 .message-box {
-	--color-message-box: #ffc;
-
 	display: block;
-	background-color: var(--color-message-box);
-	color: var(--color-gray-90);
-	padding: 1em 0.625em; /* 16px 10px /16 */
+	background-color: #ffe627;
+	color: #404040;
+	padding: 1em 1.25em;
+	border-left: 4px solid #590FA9;
+	font-weight: 600;
+	margin-bottom: 1.5em;
 }
 .message-box ol {
 	margin-top: 0;
 }
+.message-box a[href] {
+	color: #590FA9;
+	font-weight: 700;
+}
 
 @media (prefers-color-scheme: dark) {
 	.message-box {
-		--color-message-box: #082840;
+		background-color: #2d1054;
+		color: #e0e0e0;
+		border-left-color: #ffe627;
+	}
+	.message-box a[href] {
+		color: #ffe627;
 	}
 }

@@ -1,40 +1,58 @@
+/* =============================================
+   7th Whitburn Scouts — UK Scouts Brand Styles
+   ============================================= */
+
 /* Defaults */
 :root {
-	--font-family: -apple-system, system-ui, sans-serif;
+	--font-family: "Nunito Sans", -apple-system, system-ui, sans-serif;
 	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
 }
 
-/* Theme colors */
+/* Theme colors — UK Scouts brand palette */
 :root {
+	--scouts-purple: #590FA9;
+	--scouts-purple-dark: #3d0a75;
+	--scouts-blue: #006ddf;
+	--scouts-blue-dark: #004893;
+	--scouts-green: #008A1C;
+	--scouts-teal: #088486;
+	--scouts-red: #ed3f23;
+	--scouts-yellow: #ffe627;
+
+	--color-gray-10: #f5f5f5;
 	--color-gray-20: #e0e0e0;
-	--color-gray-50: #C0C0C0;
-	--color-gray-90: #333;
+	--color-gray-50: #999;
+	--color-gray-70: #6e6e6e;
+	--color-gray-90: #404040;
 
 	--background-color: #fff;
-
 	--text-color: var(--color-gray-90);
-	--text-color-link: #082840;
-	--text-color-link-active: #5f2b48;
-	--text-color-link-visited: #17050F;
+	--text-color-link: var(--scouts-blue);
+	--text-color-link-active: var(--scouts-blue-dark);
+	--text-color-link-visited: var(--scouts-purple);
+
+	--header-bg: var(--scouts-purple);
+	--header-text: #fff;
 
 	--syntax-tab-size: 2;
 }
 
 @media (prefers-color-scheme: dark) {
 	:root {
-		--color-gray-20: #e0e0e0;
-		--color-gray-50: #C0C0C0;
-		--color-gray-90: #dad8d8;
+		--color-gray-20: #3a3a3a;
+		--color-gray-50: #888;
+		--color-gray-70: #aaa;
+		--color-gray-90: #e0e0e0;
 
-		/* --text-color is assigned to --color-gray-_ above */
-		--text-color-link: #1493fb;
-		--text-color-link-active: #6969f7;
-		--text-color-link-visited: #a6a6f8;
+		--background-color: #1a1a2e;
+		--text-color-link: #5ba3f5;
+		--text-color-link-active: #8dc4ff;
+		--text-color-link-visited: #b07ce8;
 
-		--background-color: #15202b;
+		--header-bg: #2d1054;
+		--header-text: #fff;
 	}
 }
-
 
 /* Global stylesheet */
 * {
@@ -48,16 +66,14 @@
 html,
 body {
 	padding: 0;
-	margin: 0 auto;
+	margin: 0;
 	font-family: var(--font-family);
+	font-size: 1.15rem;
 	color: var(--text-color);
 	background-color: var(--background-color);
 }
 html {
 	overflow-y: scroll;
-}
-body {
-	max-width: 40em;
 }
 
 /* https://www.a11yproject.com/posts/how-to-hide-content/ */
@@ -73,30 +89,32 @@ body {
 
 /* Fluid images via https://www.zachleat.com/web/fluid-images/ */
 img {
-  max-width: 100%;
+	max-width: 100%;
 }
 img[width][height] {
-  height: auto;
+	height: auto;
 }
-img[src$=".svg"] {
-  width: 100%;
-  height: auto;
-  max-width: none;
+img[src$=".svg"]:not(.header-logo) {
+	width: 100%;
+	height: auto;
+	max-width: none;
 }
 
 p:last-child {
 	margin-bottom: 0;
 }
 p {
-	line-height: 1.5;
+	line-height: 1.6;
 }
 
 li {
-	line-height: 1.5;
+	line-height: 1.6;
 }
 
 a[href] {
 	color: var(--text-color-link);
+	text-decoration-thickness: 1px;
+	text-underline-offset: 2px;
 }
 a[href]:visited {
 	color: var(--text-color-link-visited);
@@ -106,16 +124,38 @@ a[href]:active {
 	color: var(--text-color-link-active);
 }
 
-main,
-footer {
-	padding: 1rem;
+/* Layout */
+.content-wrapper {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0 1.5rem;
+}
+
+main {
+	padding: 2rem 1.5rem;
+	max-width: 960px;
+	margin: 0 auto;
 }
 main :first-child {
 	margin-top: 0;
 }
 
+/* Header — Scouts purple bar */
 header {
-	border-bottom: 1px dashed var(--color-gray-20);
+	background-color: var(--header-bg);
+	color: var(--header-text);
+	padding: 0;
+	border-bottom: 4px solid var(--scouts-yellow);
+}
+header .header-inner {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0.75rem 1.5rem;
+	display: flex;
+	gap: 1em;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
 }
 header:after {
 	content: "";
@@ -123,13 +163,113 @@ header:after {
 	clear: both;
 }
 
+.home-link {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.75rem;
+	font-size: 1.1rem;
+	font-weight: 800;
+	letter-spacing: -0.01em;
+	color: var(--header-text);
+	text-decoration: none;
+}
+.header-logo {
+	display: block;
+	height: 32px;
+	width: auto;
+	filter: brightness(0) invert(1);
+}
+.home-link-text {
+	border-left: 1px solid rgba(255, 255, 255, 0.3);
+	padding-left: 0.75rem;
+}
+.home-link:link,
+.home-link:visited {
+	color: var(--header-text);
+}
+.home-link:hover {
+	color: var(--scouts-yellow);
+	text-decoration: none;
+}
+
+/* Nav */
+.nav {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	gap: 0.25rem;
+}
+.nav-item {
+	display: inline-block;
+}
+.nav-item a[href] {
+	color: var(--header-text);
+	text-decoration: none;
+	padding: 0.4rem 0.75rem;
+	font-weight: 600;
+	font-size: 0.9rem;
+	transition: background-color 0.15s ease-in-out;
+}
+.nav-item a[href]:visited {
+	color: var(--header-text);
+}
+.nav-item a[href]:hover {
+	background-color: rgba(255, 255, 255, 0.15);
+	color: var(--scouts-yellow);
+}
+.nav a[href][aria-current="page"] {
+	background-color: rgba(255, 255, 255, 0.2);
+	color: var(--scouts-yellow);
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+	font-family: var(--font-family);
+	color: var(--scouts-purple);
+	font-weight: 700;
+	line-height: 1.2;
+}
+
+@media (prefers-color-scheme: dark) {
+	h1, h2, h3, h4, h5, h6 {
+		color: #b07ce8;
+	}
+}
+
+h1 {
+	font-size: 2rem;
+	font-weight: 800;
+	margin-bottom: 0.5em;
+	padding-bottom: 0.3em;
+	border-bottom: 3px solid var(--scouts-purple);
+}
+
+@media (prefers-color-scheme: dark) {
+	h1 {
+		border-bottom-color: #b07ce8;
+	}
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5em;
+}
+
+h3 {
+	font-size: 1.2rem;
+	margin-top: 1.3em;
+}
+
+/* Previous/Next post navigation */
 .links-nextprev {
 	display: flex;
 	justify-content: space-between;
 	gap: .5em 1em;
-	list-style: "";
-	border-top: 1px dashed var(--color-gray-20);
-	padding: 1em 0;
+	list-style: none;
+	border-top: 2px solid var(--color-gray-20);
+	padding: 1.5em 0;
+	margin-top: 2em;
 }
 .links-nextprev > * {
 	flex-grow: 1;
@@ -138,12 +278,38 @@ header:after {
 	text-align: right;
 }
 
+/* Tables — Scouts style */
 table {
 	margin: 1em 0;
+	border-collapse: collapse;
+	width: 100%;
 }
-table td,
 table th {
-	padding-right: 1em;
+	background-color: var(--scouts-purple);
+	color: #fff;
+	font-weight: 700;
+	text-align: left;
+	padding: 0.6rem 1rem;
+}
+
+@media (prefers-color-scheme: dark) {
+	table th {
+		background-color: #2d1054;
+	}
+}
+
+table td {
+	padding: 0.6rem 1rem;
+	border-bottom: 1px solid var(--color-gray-20);
+}
+table tr:nth-child(even) td {
+	background-color: var(--color-gray-10);
+}
+
+@media (prefers-color-scheme: dark) {
+	table tr:nth-child(even) td {
+		background-color: rgba(255, 255, 255, 0.05);
+	}
 }
 
 pre,
@@ -152,7 +318,7 @@ code {
 }
 pre:not([class*="language-"]) {
 	margin: .5em 0;
-	line-height: 1.375; /* 22px /16 */
+	line-height: 1.375;
 	-moz-tab-size: var(--syntax-tab-size);
 	-o-tab-size: var(--syntax-tab-size);
 	tab-size: var(--syntax-tab-size);
@@ -170,80 +336,59 @@ code {
 	word-break: break-all;
 }
 
-/* Header */
-header {
-	display: flex;
-	gap: 1em .5em;
-	flex-wrap: wrap;
-	align-items: center;
-	padding: 1em;
-}
-.home-link {
-	font-size: 1em; /* 16px /16 */
-	font-weight: 700;
-	margin-right: 2em;
-}
-.home-link:link:not(:hover) {
-	text-decoration: none;
-}
-
-/* Nav */
-.nav {
-	display: flex;
-	padding: 0;
-	margin: 0;
-	list-style: none;
-}
-.nav-item {
-	display: inline-block;
-	margin-right: 1em;
-}
-.nav-item a[href]:not(:hover) {
-	text-decoration: none;
-}
-.nav a[href][aria-current="page"] {
-	text-decoration: underline;
-}
-
 /* Posts list */
 .postlist {
 	list-style: none;
 	padding: 0;
-	padding-left: 1.5rem;
 }
 .postlist-item {
 	display: flex;
 	flex-wrap: wrap;
 	align-items: baseline;
 	counter-increment: start-from -1;
-	margin-bottom: 1em;
+	margin-bottom: 1.5em;
+	padding-bottom: 1.5em;
+	border-bottom: 1px solid var(--color-gray-20);
 }
 .postlist-item:before {
-	display: inline-block;
-	pointer-events: none;
-	content: "" counter(start-from, decimal-leading-zero) ". ";
-	line-height: 100%;
-	text-align: right;
-	margin-left: -1.5rem;
+	display: none;
 }
 .postlist-date,
 .postlist-item:before {
-	font-size: 0.8125em; /* 13px /16 */
-	color: var(--color-gray-90);
+	font-size: 0.8125em;
+	color: var(--color-gray-70);
 }
 .postlist-date {
 	word-spacing: -0.5px;
 }
 .postlist-link {
-	font-size: 1.1875em; /* 19px /16 */
+	font-size: 1.25em;
 	font-weight: 700;
-	flex-basis: calc(100% - 1.5rem);
-	padding-left: .25em;
-	padding-right: .5em;
+	flex-basis: 100%;
 	text-underline-position: from-font;
 	text-underline-offset: 0;
 	text-decoration-thickness: 1px;
+	color: var(--scouts-purple);
 }
+.postlist-link:visited {
+	color: var(--scouts-purple-dark);
+}
+.postlist-link:hover {
+	color: var(--scouts-blue);
+}
+
+@media (prefers-color-scheme: dark) {
+	.postlist-link {
+		color: #b07ce8;
+	}
+	.postlist-link:visited {
+		color: #9060c0;
+	}
+	.postlist-link:hover {
+		color: #5ba3f5;
+	}
+}
+
 .postlist-item-active .postlist-link {
 	font-weight: bold;
 }
@@ -254,22 +399,83 @@ header {
 	align-items: center;
 	justify-content: center;
 	text-transform: capitalize;
-	font-style: italic;
+	font-style: normal;
+	font-size: 0.8rem;
+	font-weight: 600;
+	background-color: var(--scouts-purple);
+	color: #fff;
+	padding: 0.15em 0.6em;
+	text-decoration: none;
 }
+.post-tag:visited {
+	color: #fff;
+}
+.post-tag:hover {
+	background-color: var(--scouts-blue);
+	color: #fff;
+}
+
+@media (prefers-color-scheme: dark) {
+	.post-tag {
+		background-color: #3d0a75;
+	}
+	.post-tag:hover {
+		background-color: #5ba3f5;
+	}
+}
+
 .postlist-item > .post-tag {
 	align-self: center;
 }
 
-/* Tags list */
+/* Tags list / post metadata */
 .post-metadata {
 	display: inline-flex;
 	flex-wrap: wrap;
 	gap: .5em;
 	list-style: none;
 	padding: 0;
-	margin: 0;
+	margin: 0 0 1.5em 0;
 }
 .post-metadata time {
 	margin-right: 1em;
+	color: var(--color-gray-70);
 }
 
+/* Footer */
+footer {
+	background-color: var(--color-gray-90);
+	color: var(--color-gray-20);
+	padding: 1.5rem;
+	margin-top: 3rem;
+	text-align: center;
+	font-size: 0.85rem;
+}
+footer a[href] {
+	color: var(--scouts-yellow);
+}
+footer a[href]:hover {
+	color: #fff;
+}
+
+@media (prefers-color-scheme: dark) {
+	footer {
+		background-color: #0d0d1a;
+		color: #888;
+	}
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+	header .header-inner {
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 0.5em;
+	}
+	.nav {
+		flex-wrap: wrap;
+	}
+	h1 {
+		font-size: 1.5rem;
+	}
+}
