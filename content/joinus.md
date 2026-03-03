@@ -8,13 +8,13 @@ The 7th Whitburn Scout Group offers fun and adventure to young people aged 6 to 
 
 ## Beavers (6-8 years old)
 
-The Beavers meet on a Thursday night. We run two sessions; the McMartin Colony from 5:30 - 6:30 pm and the Bonnar Colony runs from 6:45 to 7:45 pm.
+The Beavers meet on a Thursday night from 5:30 - 6:30 pm
 
 To find out more simply come along on a Thursday night or contact Neil Brodie on 07795 804717 
 
 ## Cubs (8 - 10½)
 
-The Cubs meet on a Thursday night from 6:15 to 7:45pm
+The Cubs meet on a Thursday night from 6:00 to 7:30pm
 
 Contact Neil on 07936 752047 to discuss joining or come down on Thursday and talk to us about joining.
 
